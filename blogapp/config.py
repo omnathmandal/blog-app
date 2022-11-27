@@ -2,7 +2,7 @@ import os
 
 
 class Config:
-    with open("SECRET_KEY.txt", "r") as key:
+    with open("SECRET.key", "r") as key:
         SECRET_KEY = key.readline()
     SQLALCHEMY_DATABASE_URI = "sqlite:///site.db"
     MAIL_SERVER = "smtp.googlemail.com"

@@ -11,3 +11,7 @@ install : requirements.txt
 # for executing the app
 run: install
 	@ python run.py
+
+# for generating key
+key: 
+	@ python generate.py
