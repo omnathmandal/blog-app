@@ -20,7 +20,7 @@ $ make key
 ```
 ## STEP 2
 
-**Installing prequisities for using the app:**
+**Installing prerequisites for using the app:**
 ```bash
 # using pip
 $ python -m pip install -r requirements.txt
