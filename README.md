@@ -25,6 +25,9 @@ $ make key
 # using pip
 $ python -m pip install -r requirements.txt
 
+# using pip (For development)
+$ python -m pip install -r dev-requirements.txt
+
 # using Makefile
 $ make 
 
@@ -39,16 +42,16 @@ $ poetry install
 **running the app :**
 ```bash
 # using python with debug mode on
-$ python run.py
+$ python app.py
 
 # using Makefile
 $ make run
 
 # using flask in debug mode
-$ python -m flask --app run --debug run
+$ python -m flask --app app --debug run
 
 # using flask without debug mode
-$ python -m flask --app run run
+$ python -m flask --app app run
 
 # poetry
 $ poetry run run.py
