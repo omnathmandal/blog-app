@@ -57,3 +57,69 @@ $ python -m flask --app app run
 $ poetry run run.py
 ```
 ---
+
+## Project Structure :
+```
+|   .gitignore
+|   Makefile
+|   requirements.txt
+|   pyproject.toml
+|   poetry.lock
+|   app.py
+|   LICENSE
+|   generate.py
+|   README.md
+|   SECRET.key
+|   dev-requirements.txt
+|   
++---blogapp
+    |   __init__.py
+    |   config.py
+    |   models.py
+    |   
+    +---templates
+    |   |   layout.html
+    |   |   account.html
+    |   |   reset_token.html
+    |   |   user_posts.html
+    |   |   about.html
+    |   |   create_post.html
+    |   |   home.html
+    |   |   login.html
+    |   |   post.html
+    |   |   register.html
+    |   |   reset_request.html
+    |   |   
+    |   \---errors
+    |           403.html
+    |           404.html
+    |           500.html
+    |           
+    +---static
+    |   |   main.css
+    |   |   favicon.ico
+    |   |   
+    |   \---profile_pic
+    |           default.png
+    |           
+    +---errors
+    |       __init__.py
+    |       handlers.py
+    |           
+    +---main
+    |       __init__.py
+    |       routes.py
+    |       
+    +---users
+    |       __init__.py
+    |       forms.py
+    |       routes.py
+    |       utils.py
+    |           
+    \---posts
+            __init__.py
+            forms.py
+            routes.py
+            
+```
+---
