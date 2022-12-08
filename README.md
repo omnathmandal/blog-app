@@ -60,6 +60,7 @@ $ poetry run run.py
 
 ## Project Structure :
 ```
+blog-app
 |   .gitignore
 |   Makefile
 |   requirements.txt
