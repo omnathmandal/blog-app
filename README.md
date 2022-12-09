@@ -62,7 +62,9 @@ $ poetry run run.py
 ```
 blog-app
 |   .gitignore
+|   .dockerignore
 |   Makefile
+|   Dockerfile
 |   requirements.txt
 |   pyproject.toml
 |   poetry.lock
