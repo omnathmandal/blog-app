@@ -1,5 +1,10 @@
 <h1 align='center'>Blog app using Flask framework</h1>
 
+![files](https://img.shields.io/github/directory-file-count/omnathmandal/blog-app)
+![repo size](https://img.shields.io/github/repo-size/omnathmandal/blog-app)
+
+![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)![Jinja](https://img.shields.io/badge/jinja-white.svg?style=for-the-badge&logo=jinja&logoColor=black)![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)![CMake](https://img.shields.io/badge/CMake-%23008FBA.svg?style=for-the-badge&logo=cmake&logoColor=white)![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+
 ---
 # From Dockerfile
 
@@ -11,9 +16,13 @@ $ docker build -t your_dockerhub_username/your-image .
 # To check the docker images
 $ docker images
 
-# to check running containers
+# to run the container in deatached mode where machine port 8000 = docker port 8000
 $ docker run --name your-image -p 8000:8000 -d your_dockerhub_username/your-image
 
+# to run the container in foreground mode
+$ docker run --name your-image -p 8000:8000 your_dockerhub_username/your-image
+
+# to visit the site goto localhost:8080
 ```
 
 ---
