@@ -5,7 +5,7 @@ description = "A blog app made using flask"
 authors = ["Omnath Mandal <omnathmandal2003@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "blog_app"}]
+packages = [{include = "blogapp"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"

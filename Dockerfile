@@ -17,11 +17,11 @@ RUN poetry config virtualenvs.create false
 # copying poetry.lock and pyproject.toml
 COPY poetry.lock pyproject.toml /blog-app/
 
+# copying all the source folders and files
+COPY . .
+
 # installing dependencies without dev dependencies
 RUN poetry install --no-interaction --without dev
-
-# copying other files 
-COPY . /blog-app/
 
 # generating the SECRET.key
 RUN python3 generate.py
