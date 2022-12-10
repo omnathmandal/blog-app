@@ -1,6 +1,22 @@
 <h1 align='center'>Blog app using Flask framework</h1>
 
 ---
+# From Dockerfile
+
+```bash
+
+# building the image from the Dockerfile
+$ docker build -t your_dockerhub_username/your-image .
+
+# To check the docker images
+$ docker images
+
+# to check running containers
+$ docker run --name your-image -p 8000 -d your_dockerhub_username/your-image
+
+```
+
+---
 ## STEP 1
 **generating a secret token :**
 
