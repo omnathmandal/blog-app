@@ -12,7 +12,7 @@ $ docker build -t your_dockerhub_username/your-image .
 $ docker images
 
 # to check running containers
-$ docker run --name your-image -p 8000 -d your_dockerhub_username/your-image
+$ docker run --name your-image -p 8000:8000 -d your_dockerhub_username/your-image
 
 ```
 
