@@ -94,7 +94,7 @@ blog-app
 |   pyproject.toml
 |   poetry.lock
 |   app.py
-|   LICENSE
+|   LICENSE.md
 |   generate.py
 |   README.md
 |   SECRET.key
