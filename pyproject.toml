@@ -5,6 +5,7 @@ description = "A blog app made using flask"
 authors = ["Omnath Mandal <omnathmandal2003@gmail.com>"]
 license = "MIT"
 readme = "README.md"
+repository = "https://github.com/omnathmandal/blog-app"
 packages = [{include = "blogapp"}]
 
 [tool.poetry.dependencies]
